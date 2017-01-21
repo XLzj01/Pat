@@ -13,7 +13,6 @@ public class B_1004 {
 			String temp = scanner.nextLine();
 			strings[i] = temp;
 		}
-
 		char[] dayCharArray = strings[0].toCharArray();
 		String dayString = strings[1];
 		int count = 1;
@@ -32,7 +31,6 @@ public class B_1004 {
 				}
 			}
 		}
-
 		char[] timeCharArray = strings[2].toCharArray();
 		for (int i = 0; i < timeCharArray.length; i++) {
 			Character subtitle = timeCharArray[i];
@@ -43,7 +41,6 @@ public class B_1004 {
 				} else {
 					rightDay.append(i);
 				}
-
 			}
 		}
 		System.out.println(rightDay.toString());
