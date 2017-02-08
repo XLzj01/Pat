@@ -43,7 +43,7 @@ public class B_1002 {
 				if (i == 3) {
 					double numble = a[i];
 					double temp2 = temp;
-					//....
+					// ....
 					System.out.print((new BigDecimal(numble / temp2)).setScale(1, BigDecimal.ROUND_HALF_UP) + " ");
 				} else {
 					System.out.print(a[i] + " ");
@@ -52,5 +52,6 @@ public class B_1002 {
 				System.out.print("N ");
 			}
 		}
+		scanner.close();
 	}
 }

@@ -9,5 +9,7 @@ public class B_1007 {
 		BigInteger a = sc.nextBigInteger();
 		int b = sc.nextInt();
 		System.out.println(a.divide(BigInteger.valueOf(b)) + " " + a.mod(BigInteger.valueOf(b)));
+		
+		sc.close();
 	}
 }

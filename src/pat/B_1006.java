@@ -15,6 +15,7 @@ public class B_1006 {
 		int numble1 = getNumble(a, b);
 		int numble2 = getNumble(c, d);
 		System.out.println(numble1 + numble2);
+		scanner.close();
 	}
 
 	public static int getNumble(String a, String b) {

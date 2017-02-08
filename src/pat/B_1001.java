@@ -25,6 +25,7 @@ public class B_1001 {
 			}
 		}
 		System.out.println(stringBuffer.toString());
+		scanner.close();
 //		long endCurrentTimeMillis = System.currentTimeMillis();
 //		System.out.println(endCurrentTimeMillis - startCurrentTimeMillis);
 	}

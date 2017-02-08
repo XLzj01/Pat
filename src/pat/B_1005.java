@@ -66,7 +66,7 @@ public class B_1005 {
 		for (Stu s : list4) {
 			System.out.println(s.toString());
 		}
-
+		input.close();
 	}
 
 }

@@ -44,5 +44,7 @@ public class B_1004 {
 			}
 		}
 		System.out.println(rightDay.toString());
+		
+		scanner.close();
 	}
 }
