@@ -12,11 +12,6 @@ public class B_1009 {
 			System.out.println("N - N = 0000");
 			return;
 		}
-		// Arrays.sort(charArray);
-		// StringBuffer bigStringBuffer = new StringBuffer();
-		// bigStringBuffer.append(charArray[3]).append(charArray[2]).append(charArray[1]).append(charArray[0]);
-		// StringBuffer smallStringBuffer = new StringBuffer();
-		// smallStringBuffer.append(charArray[0]).append(charArray[1]).append(charArray[2]).append(charArray[3]);
 		Integer answer = 0;
 		while (answer != 6174) {
 			Arrays.sort(charArray);
