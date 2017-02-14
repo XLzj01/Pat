@@ -1,10 +1,8 @@
 package pat;
 
 import java.util.Scanner;
-
 public class B_1012 {
 	static Long nLong = null;
-
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		String nextLine = scanner.nextLine();
@@ -16,7 +14,6 @@ public class B_1012 {
 		System.out.println(sb);
 		scanner.close();
 	}
-
 	public static StringBuffer getNumble(Long numble, StringBuffer sb) {
 		long temp = numble / nLong;
 		Long remainder = numble % nLong;
