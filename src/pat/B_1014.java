@@ -11,8 +11,7 @@ public class B_1014 {
 		String index = split[1];
 		int length = base.length();
 		int indexOf = base.indexOf(".");
-		BigDecimal bigDecimal = new BigDecimal(index);
-		int intValue = bigDecimal.abs().intValue();
+		int intValue = new BigDecimal(index).abs().intValue();
 		base.deleteCharAt(indexOf);
 		if (index.startsWith("+")) {
 			if (intValue < (length - (indexOf + 1))) {
