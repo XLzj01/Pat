@@ -8,13 +8,13 @@ public class B_1013 {
 		String nextLine = scanner.nextLine();
 		String[] split = nextLine.split("\\ ");
 		StringBuffer buffer = new StringBuffer();
-		int count = 0;
+		boolean door = true;
 		for (int i = 0; i < split.length; i++) {
 			int a = new Integer(split[i]);
 			for (int j = 0; j < a; j++) {
-				if (count == 0 && i != 0) {
+				if (door && i != 0) {
 					buffer.insert(0, i);
-					count++;
+					door = false;
 					continue;
 				}
 				buffer.append(i);
